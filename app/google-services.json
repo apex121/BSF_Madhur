@@ -1,39 +1,74 @@
 {
   "project_info": {
-    "project_number": "461392533316",
-    "firebase_url": "https://firebas-login-88307.firebaseio.com",
-    "project_id": "firebas-login-88307",
-    "storage_bucket": "firebas-login-88307.appspot.com"
+    "project_number": "202980487650",
+    "firebase_url": "https://bsf-madhur-default-rtdb.firebaseio.com",
+    "project_id": "bsf-madhur",
+    "storage_bucket": "bsf-madhur.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:461392533316:android:877265696e922e4f",
+        "mobilesdk_app_id": "1:202980487650:android:044b6de15292d0134dc9bb",
         "android_client_info": {
-          "package_name": "com.firebase.alokraj.firebaselogin"
+          "package_name": "com.bsf.firebaselogin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "461392533316-4vt7s1m6bvsl6cdae95tcfsejn1d8tkl.apps.googleusercontent.com",
+          "client_id": "202980487650-0apdebd4e0bvdo97105vmb84n5cblcoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bsf.firebaselogin",
+            "certificate_hash": "7369079ece7e6e0a7da5f595beadd34bcf88c564"
+          }
+        },
+        {
+          "client_id": "202980487650-jgsfrkuo0u11354idbivv00828g34njb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBDmcuiCbzy9P-3e0zeUyWyKyhawYB8K0M"
+          "current_key": "AIzaSyD4n806PTNk_Et14qVi6ga1qd4DmvRsSh4"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202980487650-bgn9vmv54oek0qd8c973rusb420d7s20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202980487650:android:07567b327c0d29514dc9bb",
+        "android_client_info": {
+          "package_name": "com.example.bsf_madhur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202980487650-jgsfrkuo0u11354idbivv00828g34njb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4n806PTNk_Et14qVi6ga1qd4DmvRsSh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202980487650-bgn9vmv54oek0qd8c973rusb420d7s20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

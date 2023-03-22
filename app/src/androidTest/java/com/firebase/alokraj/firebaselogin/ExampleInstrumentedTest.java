@@ -1,4 +1,4 @@
-package com.firebase.alokraj.firebaselogin;
+package com.bsf.firebaselogin;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.firebase.alokraj.firebaselogin", appContext.getPackageName());
+        assertEquals("com.bsf.firebaselogin", appContext.getPackageName());
     }
 }

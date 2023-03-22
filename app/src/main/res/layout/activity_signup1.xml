@@ -4,12 +4,12 @@
     android:id="@+id/activity_signup1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.firebase.alokraj.firebaselogin.Signup1Activity">
+    tools:context="com.bsf.firebaselogin.Signup1Activity">
     <LinearLayout
         android:id="@+id/linerLayout"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/light_gray"
         android:orientation="vertical"
         android:padding="@dimen/activity_horizontal_margin">
         <!-- Login progress -->
@@ -27,9 +27,9 @@
             android:layout_height="@dimen/logo_w_h"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="30dp"
-            android:src="@drawable/firebase"/>
+            android:src="@drawable/bsf_logo"/>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
@@ -44,13 +44,13 @@
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
 
-                android:textColor="@android:color/white"
+                android:textColor="@color/blue"
                 android:textColorHint="@android:color/white"
                 android:singleLine="true" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
@@ -64,14 +64,14 @@
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:textColor="@android:color/white"
-                android:textColorHint="@android:color/white"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/light_gray"
                 android:singleLine="true" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:background="@color/colorAccent"
+            android:background="@color/blue"
             android:id="@+id/sign_up_button"
             style="?android:textAppearanceSmall"
             android:layout_width="fill_parent"
@@ -91,7 +91,7 @@
             android:background="@null"
             android:text="@string/btn_forget_password"
             android:textAllCaps="false"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/blue"
             android:textStyle="bold" />
 
         <Button
@@ -103,7 +103,7 @@
             android:background="@null"
             android:text="@string/btn_link_to_login"
             android:textAllCaps="false"
-            android:textColor="@android:color/white"
+            android:textColor="@color/blue"
             android:textStyle="bold" />
 
 

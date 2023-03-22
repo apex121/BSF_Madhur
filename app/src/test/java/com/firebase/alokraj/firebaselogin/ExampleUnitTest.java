@@ -1,4 +1,4 @@
-package com.firebase.alokraj.firebaselogin;
+package com.bsf.firebaselogin;
 
 import org.junit.Test;
 
