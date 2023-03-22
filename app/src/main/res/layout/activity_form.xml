@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="25dp"
@@ -29,7 +30,6 @@
 
             android:id="@+id/full_name"
             app:hintEnabled="true"
-            app:layout_constraintTop_toBottomOf="@+id/tv_label_fill_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -48,7 +48,6 @@
             android:id="@+id/nationality"
             app:boxBackgroundMode="none"
             app:hintEnabled="true"
-            app:layout_constraintTop_toBottomOf="@+id/full_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -57,7 +56,6 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:background="@drawable/bg_et"
                 android:enabled="true"
                 android:hint="enter nationality" />
@@ -68,7 +66,6 @@
             android:id="@+id/email"
             app:boxBackgroundMode="none"
             app:hintEnabled="true"
-            app:layout_constraintTop_toBottomOf="@+id/nationality"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -89,7 +86,6 @@
 
             app:boxBackgroundMode="none"
             app:hintEnabled="true"
-            app:layout_constraintTop_toBottomOf="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -153,5 +149,5 @@
             android:alpha=".2"
             android:elevation="0dp"
             android:src="@drawable/bsf_logo" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 </layout>
